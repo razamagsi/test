@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        @media (mai-width: 1180px) {
+            .sidebar-nav {
+                transform: none;
+                visibility: visible !important;
+                height: calc(100% - var(--topNavbarHeight));
+                top: var(--topNavbarHeight);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card col-md-4 mx-auto d-block mt-5">
+        <form class="row">
+            <div class="col-10 mx-auto d-block g-4">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-10 mx-auto d-block g-4">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="col-10 mx-auto d-block gy-4 mb-3">
+
+                <input type="button" class="btn btn-outline-primary" value="Login">
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>
